@@ -1,0 +1,142 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+}
+
+img {
+    width: 100px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#hero {
+    width: 720px;
+    height: 320px;
+    background-image: url("images/algete.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    background:#1D3557;
+    margin: 0px 260px;
+    border-radius: 5px;
+    border: 1px solid yellow ;
+}
+
+h1:hover {
+    background-color: sienna;
+}
+
+h2 {
+    color: white;
+    margin: 10px 150px;
+    background: #457B9D;
+    padding: 5px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.top {
+    width: 720px;
+    padding: 0px;
+    background: #F1FAEE;
+    margin-top: 0px;
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    color: #1D3557;
+    text-shadow:  black 1px 0 10px;
+}
+
+#act {
+    width:  720px;
+    display: flex;
+    background: #F1FAEE;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+h4 {
+    color: #1D3557;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+h5 {
+     color: #1D3557;
+     font-weight: lighter;
+     margin: auto;
+}
+
+.bottom {
+    width: 720px;
+    background-color: white;
+    margin: auto;
+}
+
+#card {
+    margin: 50px auto;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    padding: 15px;
+    background: #A8DADC;
+    border-radius: 10px; 
+    border-bottom: 5px solid #1D3557;
+    animation-name: fade;
+    animation-duration: 6s;
+    
+}
+
+@keyframes fade {
+     from {background-color: #faedcd;}
+  to {background-color: #A8DADC;}
+}
+
+.pic {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.guide {
+    color: #1D3557;
+    font-size: 30px;
+}
+
+p {
+    color: #1D3557;
+}
+
+.text {
+    width: 400px;
+    margin: auto 20px;
+}
+
+.prestige {
+    font-size: 20px;
+}
+
+#card:hover {
+    color:lightpink;
+}
